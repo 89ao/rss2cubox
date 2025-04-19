@@ -1,17 +1,24 @@
 on:
   rss:
-    url: https://hnrss.org/newest?points=300&count=3
+    url:
+      - https://xlrocket.blog/feed/
+      - https://www.appinn.com/feed/
+      - https://rsshub.rssforever.com/jike/user/C81D3916-D109-40CA-8776-28E4FED54900
 jobs:
-  print:
-    name: Print
+  request:
+    name: Make a HTTP Request2
     runs-on: ubuntu-latest
     steps:
-      - name: Print Outputs
-        env:
-          title: ${{on.rss.outputs.title}}
-          contentSnippet: ${{on.rss.outputs.contentSnippet}}
-          link: ${{on.rss.outputs.link}}
-        run: |
-          echo title: $title
-          echo contentSnippet: $contentSnippet
-          echo link: $link
+      - name: Make a HTTP Request
+        uses: actionsflow/axios@v1
+        with:
+          url: ${{secrets.CUBOX_API}}
+          method: POST
+          body: |
+            {
+              "type":"url",
+              "content":"${{ on.rss.outputs.link }}", 
+              "title": "${{ on.rss.outputs.title }}",
+              "description": "${{ on.rss.outputs.description }}",
+              "folder":"软件效率"
+            }
