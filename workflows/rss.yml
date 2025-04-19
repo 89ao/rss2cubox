@@ -4,6 +4,8 @@ on:
       - https://xlrocket.blog/feed/
       - https://www.appinn.com/feed/
       - https://rsshub.rssforever.com/jike/user/C81D3916-D109-40CA-8776-28E4FED54900
+      - https://hellogithub.com/rss
+      - https://sspai.com/feed
 jobs:
   request:
     name: Make a HTTP Request2
@@ -20,5 +22,5 @@ jobs:
               "content":"${{ on.rss.outputs.link }}", 
               "title": "${{ on.rss.outputs.title }}",
               "description": "${{ on.rss.outputs.description }}",
-              "folder":"软件效率"
+              "folder":"RSS"
             }
