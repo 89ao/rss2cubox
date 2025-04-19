@@ -26,7 +26,7 @@ Build an Actionsflow workflow is a four-step process:
     ```yml
     on:
       schedule:
-        - cron: "*/15 * * * *"
+        - cron: "* */6 * * *"
     ```
     > Note: To prevent abuse, by default, the schedule is commented, please modify the schedule time according to your own needs, the default is once every 15 minutes. Learn more about schedule event, please see [here](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule)
 
