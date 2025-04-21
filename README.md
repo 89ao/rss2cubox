@@ -22,5 +22,6 @@
 2. 在 [config.py](/config.py) 中设置 Cubox API、标签、收藏夹和订阅源地址。
 3. 运行：
     ```shell
-    python main.py
+    bash ./runner.sh
+    # 每2h同步一次
     ```
