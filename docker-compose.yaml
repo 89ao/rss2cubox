@@ -1,7 +1,7 @@
 services:
   rss2cubox:
     container_name: rss2cubox
-    image: docker.cnb.cool/motorao/hub:rss2cubox
+    image: gantedanca446/rss2cubox
     environment:
       - CUBOX_API=https://cubox.pro/c/api/save/token_to_your_cubox_api
     volumes:

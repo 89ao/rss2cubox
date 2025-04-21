@@ -7,10 +7,6 @@ CUBOX_FOLDER = "RSS"
 
 # 订阅源地址
 FEED_LIST = [
-    'https://xlrocket.blog/feed/',
-    'https://rsshub.rssforever.com/jike/user/C81D3916-D109-40CA-8776-28E4FED54900',
-    'https://hellogithub.com/rss',
-    'https://feeds.feedburner.com/ruanyifeng',
     'https://feeds.appinn.com/appinns/',
     'https://sspai.com/feed'
 ]
