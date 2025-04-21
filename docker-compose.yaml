@@ -1,0 +1,12 @@
+services:
+  rss2cubox:
+    container_name: rss2cubox
+    image: docker.cnb.cool/motorao/hub:rss2cubox
+    environment:
+      - CUBOX_API=https://cubox.pro/c/api/save/token_to_your_cubox_api
+    volumes:
+      - ./timestramp.txt:/app/timestramp.txt
+      - /etc/localtime:/etc/localtime:ro
+    restart: always
+    privileged: true
+    network_mode: host  
