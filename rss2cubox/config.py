@@ -1,5 +1,5 @@
 # Cubox API
-CUBOX_API = 'https://cubox.pro/c/api/save/token_to_your_cubox_api'
+CUBOX_API = 'https://cubox.pro/c/api/save/afmgxeRe7jM'
 # 需要添加的标签
 CUBOX_TAGS = None
 # 指定收藏夹
@@ -7,8 +7,7 @@ CUBOX_FOLDER = "RSS"
 
 # 订阅源地址
 FEED_LIST = [
-    'https://feeds.appinn.com/appinns/',
-    'https://sspai.com/feed'
+    'https://www.fujirumors.com/feed/'
 ]
 
 # 第一次运行时发送的最早的文章日期
