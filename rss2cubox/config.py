@@ -1,5 +1,5 @@
 # Cubox API
-CUBOX_API = 'https://cubox.pro/c/api/save/afmgxeRe7jM'
+CUBOX_API = 'https://cubox.pro/c/api/save/aabbcc'
 # 需要添加的标签
 CUBOX_TAGS = None
 # 指定收藏夹
