@@ -567,30 +567,6 @@
         <mxCell id="3YqI9s_EdtaSLQWysAb3-2" value="开始同步" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="787" y="1489" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3YqI9s_EdtaSLQWysAb3-4" value="获取配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="822" y="1341" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3YqI9s_EdtaSLQWysAb3-5" value="获取配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="873" y="1341" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3YqI9s_EdtaSLQWysAb3-6" value="获取配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="923" y="1341" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3YqI9s_EdtaSLQWysAb3-7" value="获取配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="973" y="1341" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3YqI9s_EdtaSLQWysAb3-8" value="获取配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1024" y="1341" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3YqI9s_EdtaSLQWysAb3-9" value="获取配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1074" y="1341" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3YqI9s_EdtaSLQWysAb3-10" value="获取配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1125" y="1341" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3YqI9s_EdtaSLQWysAb3-11" value="获取配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1175" y="1341" width="80" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="3YqI9s_EdtaSLQWysAb3-12" value="同步完成" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1298" y="1489" width="80" height="40" as="geometry" />
         </mxCell>
