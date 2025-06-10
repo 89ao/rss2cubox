@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="第 1 页" id="Myg5ZQfDnUOYBfTnbBtr">
-    <mxGraphModel dx="1234" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1314" dy="824" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,11 +94,103 @@
             <mxPoint x="335" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZVxVzunQ5SPBmRhtmfri-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
+        <mxCell id="ZVxVzunQ5SPBmRhtmfri-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" parent="1" vertex="1">
           <mxGeometry x="455" y="184" width="20" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="ZVxVzunQ5SPBmRhtmfri-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
+        <mxCell id="ZVxVzunQ5SPBmRhtmfri-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" parent="1" vertex="1">
           <mxGeometry x="455" y="244" width="20" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="h67USyttaTuLTJ9TlO5O-3" target="h67USyttaTuLTJ9TlO5O-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="54" y="487" />
+              <mxPoint x="54" y="571" />
+              <mxPoint x="238" y="571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-20" value="&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;功能要求：&lt;/b&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;公网软件安装&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b&gt;失效：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;公网访问异常&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h67USyttaTuLTJ9TlO5O-10">
+          <mxGeometry x="-0.7976" y="4" relative="1" as="geometry">
+            <mxPoint x="-40" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-3" value="公网访问子系统" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="447" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="h67USyttaTuLTJ9TlO5O-4" target="h67USyttaTuLTJ9TlO5O-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="178" y="487" />
+              <mxPoint x="178" y="571" />
+              <mxPoint x="238" y="571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-18" value="&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;功能要求：&lt;/b&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;办公网软件安装&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b&gt;失效：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;内网访问异常&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h67USyttaTuLTJ9TlO5O-11">
+          <mxGeometry x="-0.6574" relative="1" as="geometry">
+            <mxPoint x="-41" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-4" value="办公网访问子系统" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="447" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="h67USyttaTuLTJ9TlO5O-5" target="h67USyttaTuLTJ9TlO5O-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="571" />
+              <mxPoint x="238" y="571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-21" value="&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;功能要求：&lt;/b&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;数据中心软件安装&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b&gt;失效：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;数据中心访问异常&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h67USyttaTuLTJ9TlO5O-12">
+          <mxGeometry x="-0.7881" y="-3" relative="1" as="geometry">
+            <mxPoint x="-44" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-5" value="数据中心访问子系统" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="447" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="h67USyttaTuLTJ9TlO5O-6" target="h67USyttaTuLTJ9TlO5O-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="571" />
+              <mxPoint x="238" y="571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-22" value="&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;功能要求：&lt;/b&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;云上软件安装&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b&gt;失效：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;公有云客户访问异常&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h67USyttaTuLTJ9TlO5O-13">
+          <mxGeometry x="-0.8336" y="3" relative="1" as="geometry">
+            <mxPoint x="-41" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-6" value="云上内网访问子系统" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="447" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-7" value="仓库核心服务" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="193" y="611" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h67USyttaTuLTJ9TlO5O-8" target="h67USyttaTuLTJ9TlO5O-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-23" value="&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;功能要求：&lt;/b&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;提供仓库服务&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b&gt;失效：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;仓库服务异常&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h67USyttaTuLTJ9TlO5O-16">
+          <mxGeometry x="0.2823" y="-3" relative="1" as="geometry">
+            <mxPoint x="-40" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-8" value="数据同步子系统" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="193" y="753" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h67USyttaTuLTJ9TlO5O-9" target="h67USyttaTuLTJ9TlO5O-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-9" value="运营子系统" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="377" y="753" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-17" value="&lt;b&gt;功能要求：&lt;/b&gt;&lt;div&gt;提供数据同步能力&lt;/div&gt;&lt;div&gt;&lt;b&gt;失效：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;仓库数据陈旧或损坏&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="193" y="798" width="126" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h67USyttaTuLTJ9TlO5O-24" value="&lt;b&gt;功能要求：&lt;/b&gt;&lt;div&gt;提供运营能力&lt;/div&gt;&lt;div&gt;&lt;b&gt;失效：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;运营数据展示错误&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="373" y="802" width="114" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
