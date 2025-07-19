@@ -1,9 +1,154 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.0.6">
   <diagram name="第 1 页" id="F_a_IOzYfikixAgS0tR-">
-    <mxGraphModel>
+    <mxGraphModel dx="534" dy="1005" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-4" value="分布式核心系统" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4" y="287" width="36" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-11" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="255" width="50" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-12" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="158" y="228" width="50" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="4dRYxgqOyG7JG_nZxriU-11" target="4dRYxgqOyG7JG_nZxriU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-14" value="应用层" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="4dRYxgqOyG7JG_nZxriU-13">
+          <mxGeometry x="-0.3189" y="2" relative="1" as="geometry">
+            <mxPoint x="18" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-17" value="数据库层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="91" y="320" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-18" value="平台层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="98.5" y="407" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-19" value="缓存层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="98.5" y="462" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-20" value="中间件层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="98.5" y="505" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-21" value="路由层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="106.18" y="562.75" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-22" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="158.18" y="305.25" width="50" height="59.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-23" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="158.18" y="395" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-24" value="" style="endArrow=none;html=1;rounded=0;endFill=0;exitX=1.012;exitY=0.509;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.008;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4dRYxgqOyG7JG_nZxriU-19" target="4dRYxgqOyG7JG_nZxriU-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="188.003" y="476.82" as="sourcePoint" />
+            <mxPoint x="317" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-25" value="分布式缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="4dRYxgqOyG7JG_nZxriU-24">
+          <mxGeometry x="-0.3484" y="1" relative="1" as="geometry">
+            <mxPoint x="31" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-26" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="169" y="506" width="50" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-27" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="169.18" y="559" width="50" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="88" y="576" as="sourcePoint" />
+            <mxPoint x="103" y="576" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="102.5" y="576.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-30" value="自身服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="203.68" y="211.5" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-31" value="周边系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="202.68" y="241.5" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-32" value="运营系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="203.68" y="269.25" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-33" value="超时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="219" y="297" width="48" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-34" value="异常" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="218.18" y="323" width="48" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-35" value="高负载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="211.5" y="344" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-36" value="分布式事务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="199" y="379.25" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-37" value="PaaS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="215.18" y="401.25" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-38" value="IaaS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="217.18" y="426" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-39" value="kafka" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="222.18" y="488" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-40" value="MQ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="226.5" y="518" width="42" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-42" value="CLB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="223.18" y="545" width="47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-43" value="L5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="230" y="576" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-47" value="代码异常、内存泄露等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="215.63" width="138" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-48" value="上下游服务异常" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="243" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-49" value="运营系统异常操作，数据异常等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="271" width="186" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-50" value="数据库访问超时" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="298" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-51" value="数据库链接失败" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="326" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-52" value="数据库负载高，响应慢" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="354" width="138" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-53" value="分布式事务提交异常" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="381" width="126" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-54" value="容器资源不足，调度异常等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="409" width="162" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-55" value="vm资源争抢，母机节点故障等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="436" width="178" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-56" value="缓存访问异常，队列满导致内存溢出" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="464" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-57" value="消息读写异常，响应慢等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="492" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-58" value="消息读写异常，脑裂等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="519" width="138" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-59" value="负载均衡转发异常" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="547" width="114" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dRYxgqOyG7JG_nZxriU-60" value="名字服务访问异常" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="574.38" width="114" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
